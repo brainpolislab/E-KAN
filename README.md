@@ -1,4 +1,4 @@
-# E-KAN: Ensemble Kolmogorov-Arnold Neural Network
+# E-KAN: Ensemble Kolmogorov-Arnold Network
 
 E-KAN, or Ensemble-KAN, leverages the non-linear modeling capabilities of Kolmogorov-Arnold Neural Networks (KANs) to enhance accuracy, especially in cases with multiple data sources. The model was tested against traditional machine learning models for discriminating between recent-onset psychosis (ROP) or depression (ROD) and healthy controls using multimodal environmental and neuroimaging data. E-KAN demonstrated superior performance over these traditional models.
 
