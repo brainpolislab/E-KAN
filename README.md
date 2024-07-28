@@ -29,7 +29,7 @@ With KAN explainability you train the algorithm and explain it (also here are de
 
 ## Models Hyperparameters
 
-The following table summarizes the hyperparameters used for each model in our study:
+The following table summarizes the hyperparameters used for each model in our study, the default ones are not specified:
 
 | Model                  | Hyperparameters                             |
 |------------------------|---------------------------------------------|
@@ -42,7 +42,7 @@ The following table summarizes the hyperparameters used for each model in our st
 | Adaboost               | Default parameters                          |
 | TabNet                 | n_steps = 10, optimizer_fn = torch.optim.Adam, lambda_sparse = 1e-4, momentum = 0.3, scheduler_params = {"step_size": 10, "gamma": 0.9}, scheduler_fn = torch.optim.lr_scheduler.StepLR, max_epochs = 200, patience = 300, batch_size = 52, virtual_batch_size = 52, weights = 1, drop_last = False |
 | KAN base learner       | G = 6, K = 3, steps = 20 , width=[input_size,1,2] |                   |
-| Deep KAN               | G = 6, K = 3, steps = 20, width=[input_size,8,4,2] |
+| Deep KAN               | G = 6, K = 3, steps = 20, width=[input_size,8,4,2],lamb=0.9 |
 
 ## Notes about the usability of this repo
 
