@@ -17,7 +17,7 @@ E-KAN, or Ensemble-KAN, leverages the non-linear modeling capabilities of Kolmog
 4. **Model Prediction Ranking**: Selects the most relevant predictions from the ensemble layer using the χ2 test.
 5. **KAN Meta-Learner**: Combines the predictions from the base learners to make the final decision, leveraging a non-linear modeling framework.
 
-![Project Logo](https://github.com/GianlucaDF/E-KAN/blob/main/KAN_ensamble.png)
+![Project Logo](https://github.com/brainpolislab/E-KAN/blob/main/KAN_ensamble.png)
 
 
 ## Description of the repo
