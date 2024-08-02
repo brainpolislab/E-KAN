@@ -26,9 +26,9 @@ The following table summarizes the hyperparameters used for each model in our st
 | Model                  | Hyperparameters                             |
 |------------------------|---------------------------------------------|
 | E-KAN (our method)     | k1 = 4, k2 = 4, N = 8                       |
-| XGB (Default)          | n_estimators = 100                          |
+| XGB                    | Default parameters                        |
 | XGB (n_estimators=20)  | n_estimators = 20                           |
-| RandomForest           | n_estimators = 100                          |
+| RandomForest           | Default parameters                         |
 | RandomForest (n_estimators=20) | n_estimators = 20                   |
 | SVM                    | Default parameters                          |
 | Adaboost               | Default parameters                          |
