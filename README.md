@@ -46,3 +46,25 @@ With KAN explainability you train the algorithm and explain it (also here are de
 ## Notes about the usability of this repo
 
 Currently, this version is intended to support the results of the proceedings so it contains the scripts that define the structure of the algorithm and the validation framework
+
+## References
+If you use part of this code please cite the following proceeding
+
+## Reference
+
+<div style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+  <strong>Reference:</strong>
+  <pre style="white-space: pre-wrap; word-wrap: break-word;">
+@inproceedings{de2024ensemble,
+  title={Ensemble-KAN: Leveraging Kolmogorov Arnold Networks to Discriminate Individuals with Psychiatric Disorders from Controls},
+  author={De Franceschi, Gianluca and Sampaio, In{\^e}s W and Borgwardt, Stefan and Kambeitz, Joseph and Kambeitz-Ilankovic, Lana and Meisenzahl, Eva and Salokangas, Raimo KR and Upthegrove, Rachel and Wood, Stephen J and Koutsouleris, Nikolaos and others},
+  booktitle={International Workshop on Applications of Medical AI},
+  pages={186--197},
+  year={2024},
+  organization={Springer}
+}
+  </pre>
+</div>
+
+
+
